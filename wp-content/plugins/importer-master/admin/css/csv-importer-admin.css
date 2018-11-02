@@ -1,0 +1,53 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.xml-importer_page_theme-op-settings .wrap h2, .wrap .import-page h2{
+ 	color:#4caf50;
+ 	margin-top:30px !important;
+ 	margin-bottom:30px !important;
+ 	font-size:36px !important;
+ }
+ .xml-importer_page_theme-op-settings .wrap p, .wrap .import-page p, .xml-importer_page_theme-op-settings .wrap span, .wrap .import-page span, .xml-importer_page_theme-op-settings .wrap tr th , .wrap .import-page tr th{
+ 	color:#607d8b !important;
+ 	font-size:16px;
+ 	line-height:2;
+ }
+ .xml-importer_page_theme-op-settings .wrap a, .wrap .import-page a{
+ 	padding:10px 10px;
+ 	color:#fff;
+ 	display: inline-block;
+ 	background-color:#2196f3;
+ 	text-decoration: none;
+ 	margin-left:10px;
+ 	margin-right:10px;
+ 	text-transform:uppercase;
+ 	border-radius:3px;
+ }
+.wrap .import-page a:hover{
+ 	background-color:#6ebfff;
+ }
+.xml-importer_page_theme-op-settings .wrap input[type="text"]{
+ 	width:500px;
+ }
+.importer.error{
+ 	margin-top:50px;
+ 	padding:20px 20px;
+ 	color:#607d8b !important;
+ 	font-size:14px;
+ }
+ #toplevel_page_theme-options .new{
+ 	width: 20px;
+    height: 20px;
+    font-weight: bold;
+    background: #F44336;
+    margin-left: 5px;
+    border-radius: 50%;
+    text-align: center;
+    padding-right: 1px;
+    display: inline-block;
+ }
+ #toplevel_page_theme-options .wp-submenu-wrap .new{
+ 	display:none;
+ }
